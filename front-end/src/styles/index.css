@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #f7f7f7;
+  font-family: "Arial", sans-serif;
+}
+
+main {
+  height: 100%;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+header > ul {
+  list-style: none;
+  padding: 0;
+  height: 100%;
+  margin: 0;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+header > ul > li {
+  color: #333;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+header > ul > li:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+}
+/*
+.active-chart {
+  display: block;
+}
+
+.not-active-chart {
+  display: none;
+}
+*/
+
+#analysis-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+#charts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+#chart-nav li {
+  list-style-type: none;
+  padding: 20px;
+  margin: 10px;
+  width: 100px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#chart-nav li:hover {
+  background-color: #eee;
+}
+
+.chart-container {
+  background-color: rgba(255, 165, 0, 0.8);
+}
+
+.forecast-page {
+  display: flex;
+  background-image: "../back-ground.jpg";
+  height: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.forecast-page > h2 {
+  margin-top: 20px;
+}
+
+.start-end {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  border-radius: 30px;
+  align-items: center;
+  background-color: #152558;
+  gap: 100px;
+}
+
+.active {
+  display: flex;
+}
+
+.not-active {
+  display: none;
+}
